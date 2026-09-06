@@ -1,0 +1,14 @@
+transformers 
+tokenizers 
+sentencepiece 
+pandas 
+matplotlib 
+regex
+datasets
+tiktoken
+
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch
+torchvision
+torchaudio
