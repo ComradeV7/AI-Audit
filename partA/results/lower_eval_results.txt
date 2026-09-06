@@ -1,0 +1,32 @@
+Loading evaluation corpus...
+Loaded: eng=1012, hin=1012, tam=1012, tel=1012
+
+Initializing tokenizer...
+Tokenizer ready. Processing...
+
+============================================================
+LOWERCASE BUG - Intern's Method (mean-of-ratios)
+============================================================
+eng - Lowered: 1.287  Original: 1.244  Delta: -0.043
+hin - Lowered: 7.867  Original: 7.867  Delta: -0.000
+tam - Lowered: 25.252  Original: 25.251  Delta: -0.001
+tel - Lowered: 20.830  Original: 20.824  Delta: -0.006
+
+Hindi/English Ratio:
+  Lowered:  6.11x
+  Original: 6.32x
+  Delta:    +0.21x
+
+============================================================
+LOWERCASE BUG - Correct Method (ratio-of-totals)
+============================================================
+eng - Lowered: 1.278  Original: 1.235  Delta: -0.043
+hin - Lowered: 7.827  Original: 7.826  Delta: -0.000
+tam - Lowered: 25.049  Original: 25.047  Delta: -0.001
+tel - Lowered: 20.714  Original: 20.708  Delta: -0.006
+
+Hindi/English Ratio:
+  Lowered:  6.12x
+  Original: 6.34x
+  Delta:    +0.21x
+
